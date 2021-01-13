@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* WEBKIT*/
+html::-webkit-scrollbar-thumb {
+  background: #33373B;
+  border-radius: 4px;
+}
+html::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+}
+/* Fin WEBKIT*/
+
+html, body{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  font-size: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2e2e31;
+  background-color:#FFFFFF;
+  width: 100%;
+}
+
+
+.seccion{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 6.875rem 2.5rem 3.75rem;
+  text-align: center;
+  min-height: 62.5rem;
+}
+
+
+/* Medias Querys*/
+@media screen and (max-width: 768px){
+
+
+
+
+  
+}
+
+
+
+

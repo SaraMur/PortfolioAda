@@ -1,0 +1,139 @@
+#menu, #label-icon{
+    display: none;
+  }
+  header{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: #33373B;
+    color: #2e2e31;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    transition: 0.4s;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  }
+  
+  .caja-padre-menu{
+    background-color: #33373B;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transition: 0.4s;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+  }
+ .caja-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+    
+    }
+  
+ 
+  /*.menu-navegacion{
+   box-sizing: border-box; 
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  }*/
+  nav ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+  
+  }
+  nav li a{
+    display: list-item;
+    text-decoration: none;
+    padding: 0.1em 1em;
+    color: #CBCBCB;
+    
+  }
+  nav li a:hover {
+    color: #021a35;
+  }
+  .vinculo-secciones{
+    padding: 0px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 2;
+
+  }
+  
+  .botonContacto{
+    padding: 0rem  1.9rem;
+    border-radius: 6.25rem;
+    border: none;
+    background-color: #F9A826;
+  }
+  
+ 
+  /*Media querys*/
+
+@media all and (max-width: 768px) {
+
+  .secciones-menu{
+    display: none;
+  }
+
+  
+  #menu:checked  ~ .secciones-menu{
+    display:block;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #label-icon {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  #label-icon:hover{
+    background: grey;
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  #menu:checked ~ #label-icon {
+    background: lightgrey; 
+  }
+  
+  .secciones-menu{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+    position: absolute;
+  }
+  
+  .link-secciones{
+    font-size: 2rem;
+  }
+  
+  .listado-secciones {
+    display: block;
+    width: 22rem;
+    background: #33373B;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  .listado-secciones:hover {
+    filter: brightness(110%);
+  }
+}

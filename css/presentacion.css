@@ -1,0 +1,41 @@
+
+#presentacion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 7rem;
+  margin-top: 11%;
+}
+#lo-que-hago{
+  border-radius: 6.25rem;
+  background-color: #F9A826;
+  padding: 0.7em 2em;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  font-size:20px;
+}
+#mi-nombre{
+  font-weight: 900;
+  font-size: 3.5em;
+  color: cadetblue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#hola{
+  color: rgb(53, 53, 53);
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 1.4;
+  
+}
+.parrafo-intro{
+  color: #616161;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
