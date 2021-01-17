@@ -67,8 +67,16 @@
     border-radius: 6.25rem;
     border: none;
     background-color: #F9A826;
+    
   }
   
+  .botonContacto:hover{
+    background: #c7f8f9;
+    color: #6ab1c9;
+    border: 3px solid #6ab1c9;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
  
   /*Media querys*/
 

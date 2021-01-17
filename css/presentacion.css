@@ -17,6 +17,13 @@
   border: none;
   font-size:20px;
 }
+#lo-que-hago:hover{
+  background: #c7f8f9;
+    color: #6ab1c9;
+    border: 3px solid #6ab1c9;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
 #mi-nombre{
   font-weight: 900;
   font-size: 3.5em;
