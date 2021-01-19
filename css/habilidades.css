@@ -13,20 +13,11 @@
     display: flex;
     align-items: center;
 }
-.seccion{
-    display: flex;
-    flex-direction: column;
-
-}
 .habilidades-texto{
     width: 100%;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*align-content: center;*/
-    /*align-items: center;*/
-    
+    flex-direction: column;   
 }
 .parrafo-habilidades{
     width: 100%;
@@ -37,18 +28,11 @@
 }
 .skills-container{
     width: 80%;
-  /*  height: 31.25rem;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-  /*  align-content: center;*/
-    
-   
-    
+    flex-wrap: wrap;   
 }
-
-
 .skills-box{
     width: 16.25rem;
     height: 16.25rem;

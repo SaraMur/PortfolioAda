@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+#cita-container{
+    height: 600px;
+    text-align: center;
+    background-color: #D0CDE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cita{
+    font-family: 'Just Another Hand', cursive;
+    font-weight: 100;
+    font-size: 3em;
+}
+.pensador-cita{
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+#icono-comilla{
+    font-size: 6em;
+    margin-top: 1rem;
+}

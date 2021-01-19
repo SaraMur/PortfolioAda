@@ -31,12 +31,10 @@ body{
 
 
 .seccion{
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
+  width: 100%;
   padding: 6.875rem 2.5rem 3.75rem;
-  text-align: center;
-  min-height: 62.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 
