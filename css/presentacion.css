@@ -8,6 +8,7 @@
   margin-top: 9rem;
 }
 #lo-que-hago{
+  font-family:'Roboto Condensed', sans-serif;;
   border-radius: 6.25rem;
   background-color: #F9A826;
   padding: 0.7em 2em;
@@ -19,21 +20,23 @@
 }
 #lo-que-hago:hover{
   background: #c7f8f9;
-    color: #6ab1c9;
-    border: 3px solid #6ab1c9;
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
+  color: #6ab1c9;
+  border: 3px solid #6ab1c9;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 #mi-nombre{
-  font-weight: 900;
-  font-size: 3.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 3.7em;
   color: cadetblue;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 #hola{
+  font-family: 'Roboto Condensed', sans-serif;
   color: rgb(53, 53, 53);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 2em;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -45,4 +48,11 @@
   font-size: 1.1em;
   margin-bottom: 40px;
 }
+/*.imagen-portada{
+  width: 80vw;
+  background-image: url(../imagenportada-png.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}*/
 

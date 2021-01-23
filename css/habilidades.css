@@ -1,31 +1,11 @@
-#titulo-habilidades{
-    color: rgb(53, 53, 53);
-    font-weight: 800;
-    font-size: 2.5em;
-    margin-bottom: 0px;
-    margin-top: 1%;
-    line-height: 1.4;
-    
-}
+
 #habilidades{
     background-color: cadetblue;
     margin-top: 5%;
     display: flex;
     align-items: center;
 }
-.habilidades-texto{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;   
-}
-.parrafo-habilidades{
-    width: 100%;
-    text-align: center;
-    align-self: center;
-    color: #cce1e6;
-    font-size: 1.1em;
-}
+
 .skills-container{
     width: 80%;
     display: flex;
