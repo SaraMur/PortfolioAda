@@ -79,10 +79,36 @@
     transition: all 0.35s ease;
   }
  
+
+
   /*Media Queries*/
 
 @media screen and (max-width: 576px) {
 /* MENU*/
+
+  header{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: #33373B;
+    color: #2e2e31;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    transition: 0.4s;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  }
+  .caja-padre-menu{
+    background-color: #33373B;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transition: 0.4s;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-start;
+  
+  }
   .secciones-menu{
     display: none;
   }
@@ -95,15 +121,15 @@
   #label-icon {
     box-sizing: border-box;
     display: inline-block;
-    border: 1px solid black;
     border-radius: 5px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     user-select: none;
+    background-color: rgb(87, 86, 86);
   }
   
   /*Estilo hover boton sandwich menu*/
@@ -125,7 +151,7 @@
   }
   .listado-secciones {
     display: block;
-    width: 22rem;
+    width: 15rem;
     background: #33373B;
     margin: 0;
     padding: 10px;
@@ -137,16 +163,5 @@
   .listado-secciones:hover {
     filter: brightness(110%);
   }
-}
-.caja-padre-menu{
-  background-color: #33373B;
-   position: fixed;
-   top: 0;
-   z-index: 999;
-   transition: 0.4s;
-   width: 100%;
-   padding: 2em;
-   display: flex;
-   justify-content: flex-end;
 
-}
+

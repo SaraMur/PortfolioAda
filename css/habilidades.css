@@ -71,7 +71,7 @@
 
 }
 
-/* MEDIA QUERY*/
+/* Media Queries*/
 @media screen and (max-width: 576px){
 
     .skills-container{
@@ -80,18 +80,28 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;   
-        background-color: cadetblue;
-        margin-right: -10px;
+
 
     }
     #habilidades{
         background-color: cadetblue;
-        margin-top: 5%;
+        margin-top: 1em;
         display: flex;
         align-items: center;
         width: 100vw;
         margin-right: -20px;
     }
-    
+    .skills-box{
+        width: 8rem;
+        height: 8rem;
+        background-color: #1e1e24;
+        border: 1px solid #33373B;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }  
 
 }
