@@ -26,7 +26,6 @@
   }
  .caja-menu{
     display: flex;
-    justify-content: flex-start;
     align-items: flex-end
     
     }
@@ -80,23 +79,19 @@
     transition: all 0.35s ease;
   }
  
-  /*Media querys*/
+  /*Media Queries*/
 
-@media all and (max-width: 768px) {
-
+@media screen and (max-width: 576px) {
+/* MENU*/
   .secciones-menu{
     display: none;
   }
-
-  
   #menu:checked  ~ .secciones-menu{
     display:block;
   }
-  
   #menu {
     display: none;
   }
-  
   #label-icon {
     box-sizing: border-box;
     display: inline-block;
@@ -111,27 +106,23 @@
     user-select: none;
   }
   
-  /* Estilo del boton cuando se pasa el mouse por encima*/
+  /*Estilo hover boton sandwich menu*/
   #label-icon:hover{
-    background: grey;
+    background: rgb(112, 111, 111);
   }
-  
-  /* Estilo del boton cuando el menú está expandido*/
+  /* Estilo checked boton sandwich cuando el menú está expandido*/
   #menu:checked ~ #label-icon {
-    background: lightgrey; 
-  }
-  
+    background: rgb(235, 235, 235); 
+  }  
   .secciones-menu{
     margin-top:0;
     padding: 0;
     width: 200px;
     position: absolute;
   }
-  
   .link-secciones{
     font-size: 2rem;
   }
-  
   .listado-secciones {
     display: block;
     width: 22rem;
@@ -142,8 +133,20 @@
     border-bottom: 1px solid grey;
   }
   
-  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  /* Estilo hover de menu */
   .listado-secciones:hover {
     filter: brightness(110%);
   }
+}
+.caja-padre-menu{
+  background-color: #33373B;
+   position: fixed;
+   top: 0;
+   z-index: 999;
+   transition: 0.4s;
+   width: 100%;
+   padding: 2em;
+   display: flex;
+   justify-content: flex-end;
+
 }

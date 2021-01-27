@@ -56,3 +56,68 @@
   background-repeat: no-repeat;
 }*/
 
+
+
+/*Medias Queries*/
+
+@media screen and (max-width: 576px) {
+  #presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  #lo-que-hago{
+    font-family:'Roboto Condensed', sans-serif;;
+    border-radius: 6.25rem;
+    background-color: #F9A826;
+    padding: 0.5em 1em;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    font-size: 1.1em;
+    text-align: center;
+    align-self: center;
+  }
+  #lo-que-hago:hover{
+    background: #c7f8f9;
+    color: #6ab1c9;
+    border: 3px solid #6ab1c9;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  #mi-nombre{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: cadetblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #hola{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .parrafo-intro{
+    color: #616161;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  img.imagen-portada{
+    padding-top: 2em;
+    width: 400px;
+
+  }
+
+}
