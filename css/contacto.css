@@ -1,0 +1,40 @@
+
+#contacto{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contacto-redes-sociales{
+    width: 50%;
+}
+
+form{
+    width: 50%;
+}
+
+label{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    margin-top: 5px;
+}
+input, textarea{
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    font-size: var(--text-sm);
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+#boton-enviar{
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

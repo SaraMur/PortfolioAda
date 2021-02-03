@@ -62,7 +62,7 @@
             <p aria-label="¡Hola! Soy" id="hola">¡Hola! Soy</p>
             <h1 aria-label="Sara Muriega" id="mi-nombre">Sara Muriega</h1>
             <p aria-label="Amante del diseño minimalista y de la funcionalidad web" class="parrafo-intro">Amante del diseño minimalista y de la funcionalidad web.</p>
-            <button aria-label="lo que hago" id="lo-que-hago">
+            <button aria-label="lo que hago" class="boton-destacado">
               LO QUE HAGO
             </button>
         </article>
@@ -158,11 +158,75 @@
         </article>
       </section> <!--Fin Proyectos-->
 
-      <!--contacto-->
+      <!--Contacto-->
       <section role="form" class="seccion" id="contacto">
-        <form action="">
+        <div class="contacto-texto">
+          
+          <h1>Contactame</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.</p>
+          
+          <div class="contacto-redes-sociales">
 
-        </form>
+            <div class="twitter">
+              <a href="">
+                <i></i>
+                <p></p>
+              </a>
+            </div>
+
+            <div class="github">
+              <a href="">
+                <i></i>
+                <p></p>
+              </a>
+            </div>
+
+            <div class="linkedin">
+              <a href="">
+                <i></i>
+                <p></p>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="Email">
+          <a href="">
+            <i></i>
+            <p></p>
+          </a>
+        </div>
+
+        <!--Formulario de contacto-->
+        <form action="#" method="POST">
+          <div>
+            <label for="idNombre">Nombre*</label>
+            <input type="text" id="idNombre" name="nombre"
+            autocomplete="off"
+            placeholder="Ingresa tu nombre">
+          </div>
+          <div>
+            <label for="idApellido">Apellido*</label>
+            <input type="text" id="idApellido" name="apellido"
+            autocomplete="off"
+            placeholder="Ingresa tu apellido">
+          </div>
+          <div>
+            <label for="idemail">Email*</label>
+            <input type="email" name="Email" id="email" class="input-control" placeholder="Ingresa tu email" aria-label="Email" required="">
+          </div>
+          <div>
+            <label for="message">Mensaje*</label>
+            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required="" spellcheck="false"></textarea>
+          </div>
+          <div class="boton-destacado">
+            <button aria-label="enviar" class="boton-destacado" id="boton-enviar">
+              Enviar
+            </button>
+          </div>
+        </form> <!--Fin formulario de contacto-->
       </section> <!--Fin Contacto-->
 
     </main> <!--Fin Main-->
@@ -178,3 +242,5 @@
     </footer> <!--Fin Footer-->
 </body>
 </html>
+
+NO OLVIDAR LINKEAR LAS SECCIONES AL MENU
