@@ -38,16 +38,16 @@
     display: flex;
   
   }
-  nav li a{
+  nav, li, a.vinculo-secciones{
     display: list-item;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     padding: 0.1em 1em;
-    color: #CBCBCB;
+    color: white;
     
   }
-  nav li a:hover {
+  nav, li, a.vinculo-secciones:hover {
     color: #021a35;
   }
   .vinculo-secciones{

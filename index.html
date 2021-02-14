@@ -277,100 +277,101 @@
       <!--Contacto-->
       <section role="form" class="seccion" id="contacto">
         <!--Article-left-->
-        <article class="contacto-container-left">
-          <h1 class="titulo-contacto">Contactame</h1>
-          <p>Contactame a través de este formulario <br/> 
-              o escribirme a través de las redes sociales:</p>
-          <ul class="contacto-redes-sociales">
-            <li class="twitter">
-              <a href="https://twitter.com/Reyymuriega">
-                <i class="devicon-twitter-original colored"></i></i>
-                <span></span>
-              </a>
-            </li>
+        <article class="articleContacto-container">
+          <article class="contacto-container-left">
+            <h1 class="titulo-contacto">Contactame</h1>
+            <p class="contacto-texto">Contactame a través de este formulario <br/> 
+                o escribirme a través de las redes sociales:</p>
+            <ul class="contacto-redes-sociales">
+              <li class="elementoIcon-contact" id="twitter">
+                <a href="https://twitter.com/SaraMur7" target="_blank">
+                  <i class="devicon-twitter-original" id="twitter-iconContact"></i>
+                  <span class="iconsUtterance">@SaraMur7</span>
+                </a>
+              </li>
 
-            <li class="github">
-              <a href="">
-                <i></i>
-                <span></span>
-              </a>
-            </li>
+              <li class="elementoIcon-contact" id="github">
+                <a href="https://github.com/SaraMur" target="_blank">
+                  <i class="devicon-github-original" id="github-iconContact"></i>
+                  <span class="iconsUtterance">SaraMur</span>
+                </a>
+              </li>
 
-            <li class="linkedin">
-              <a href="">
-                <i></i>
-                <span></span>
-              </a>
-            </li>
+              <li class="elementoIcon-contact" id="linkedin">
+                <a href="https://www.linkedin.com/in/sara-m-9390271ba/" target="_blank">
+                  <i class="devicon-linkedin-plain" id="linkedin-iconContact"></i>
+                  <span class="iconsUtterance">Sara Muriega</span>
+                </a>
+              </li>
 
-            <li class="Email">
-              <a href="">
-                <i></i>
-                <span></span>
-              </a>
-            </li>
-          </ul>
-        </article><!--FIN article-left-->
-        
-        <!--Article-right-->
-        <article class="contacto-container-right">
-          <form action="#" method="POST">
-            <h1 class="titulo-contacto">Escribime</h1>
-            <br />
-            <div class="nombre-apellido">
-              <div class="nombre-contacto">
-                <label for="idNombre">Nombre*</label>
-                <input
-                  type="text"
-                  id="idNombre"
-                  name="nombre"
-                  autocomplete="off"
-                  placeholder="Ingresa tu nombre"
-                />
+              <li class="elementoIcon-contact" id="Email">
+                <a href="mailto:saramurcomercial@gmail.com" target="_blank">
+                  <i class="fas fa-envelope footer-social-icon" id="email-iconContact"></i>
+                  <span class="iconsUtterance">saramurcomercial@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </article><!--FIN article-left-->
+          
+          <!--Article-right-->
+          <article class="contacto-container-right">
+            <form action="#" method="POST">
+              <h1 class="titulo-contacto">Escribime</h1>
+              <div class="nombre-apellido">
+                <div class="nombre-contacto">
+                  <label for="idNombre">Nombre*</label>
+                  <input class="nombre"
+                    type="text"
+                    id="idNombre"
+                    name="nombre"
+                    autocomplete="off"
+                    placeholder="Ingresa tu nombre"
+                  />
+                </div>
+                <div class="apellido-contacto">
+                  <label for="idApellido">Apellido*</label>
+                  <input class="apellido"
+                    type="text"
+                    id="idApellido"
+                    name="apellido"
+                    autocomplete="off"
+                    placeholder="Ingresa tu apellido"
+                  />
+                </div>
               </div>
-              <div class="apellido-contacto">
-                <label for="idApellido">Apellido*</label>
+              <div class="email-contacto">
+                <label for="idemail">Email*</label>
                 <input
-                  type="text"
-                  id="idApellido"
-                  name="apellido"
-                  autocomplete="off"
-                  placeholder="Ingresa tu apellido"
-                />
-              </div>
-            </div>
-            <div>
-              <label for="idemail">Email*</label>
-              <input
-                type="email"
-                name="Email"
-                id="email"
-                class="input-control"
-                placeholder="Ingresa tu email"
-                aria-label="Email"
-                required=""
-              />
-            </div>
-            <div>
-                <label for="message">Mensaje*</label>
-                <textarea
-                  name="Mensaje"
-                  id="message"
-                  cols="30"
-                  rows="10"
+                  type="email"
+                  name="Email"
+                  id="email"
                   class="input-control"
-                  placeholder="Escriba un mensaje aquí"
-                  aria-label="Mensaje"
+                  placeholder="Ingresa tu email"
+                  aria-label="Email"
                   required=""
-                  spellcheck="false"
-                ></textarea>
+                />
               </div>
+              <div>
+                  <label for="message">Mensaje*</label>
+                  <textarea
+                    name="Mensaje"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="input-control"
+                    placeholder="Escriba un mensaje aquí"
+                    aria-label="Mensaje"
+                    required=""
+                    spellcheck="false"
+                  ></textarea>
+                </div>
 
-              <button aria-label="enviar" type="submit" id="boton-enviar">
-                Enviar
-              </button>
-          </form><!--Fin formulario de contacto-->
-        </article><!--FIN Article-left-->
+                <button aria-label="enviar" type="submit" id="boton-enviar">
+                  Enviar
+                </button>
+            </form><!--Fin formulario de contacto-->
+          </article><!--FIN Article-right-->
+        </article>
       </section><!--Fin Contacto-->
 
     </main><!--Fin Main-->
@@ -381,16 +382,16 @@
       <nav>
         <ul class="menu-footer">
           <li>
-            <a href="#presentacion">HOLA</a>
+            <a class="linkMenu-footer" href="#presentacion">HOLA</a>
           </li>
           <li>
-            <a href="#habilidades">CONOCIMIENTOS</a>
+            <a class="linkMenu-footer" href="#habilidades">CONOCIMIENTOS</a>
           </li>
           <li>
-            <a href="#proyectos">PROYECTOS</a>
+            <a class="linkMenu-footer" href="#proyectos">PROYECTOS</a>
           </li>
           <li>
-            <a href="#contacto">CONTACTO</a>
+            <a class="linkMenu-footer" href="#contacto">CONTACTO</a>
           </li>
         </ul>
       </nav>
@@ -419,38 +420,9 @@
       </div>
     </article>
 
-
-
-
-
-<!--<div class="container-icons-footer">
-      <ul class="redes-sociales-footer">
-        <li class="circulo-iconFooter-container">
-          <a class="iconos-footer" href="https://twitter.com/SaraMur7" target="_blank">
-            <i class="devicon-twitter-original" id="twitter-icon-footer"></i>
-          </a>
-        </li>
-        <li>
-          <a class="iconos-footer" href="https://github.com/SaraMur" target="_blank">
-            <i class="devicon-github-original" id="github-icon-footer"></i>
-          </a>
-        </li>
-        <li>
-          <a class="iconos-footer" href="https://www.linkedin.com/in/sara-m-9390271ba/" target="_blank">
-            <i class="devicon-linkedin-plain" id="linkedin-icon-footer"></i>
-          </a>
-        </li>
-        <li>
-          <a class="iconos-footer" href="mailto:saramurcomercial@gmail.com" target="_blank">
-            <i class="fas fa-envelope footer-social-icon" id="email-icon-footer" ></i>
-          </a>
-        </li>
-      </ul>
-    </div>-->
-
       <!--Firma-->
       <div class="firma">
-        Hecho con 🧡 por Sara.
+        Hecho con 🤍 por Sara.
       </div>
 
     </footer>
