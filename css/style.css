@@ -80,9 +80,9 @@ a:hover {
     color: #1e1e24;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 800;
-    font-size: 2.2em;
+    font-size: 1.5em;
     margin-bottom: 0.5em;
-    line-height: 1.4;
+    line-height: 1.2;
     text-align: center;
   }
   .seccion {
@@ -91,4 +91,10 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+
+  .parrafo-seccion{
+    font-size: 1.1em;
+  }
+
+  
 }

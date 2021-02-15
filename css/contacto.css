@@ -95,14 +95,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-/*input.nombre{
-    width: 10rem;
-    display: flex;
-}41,15
-input.apellido{
-    width: 10rem;
-    display: flex;
-}*/
+
 /*FIN NOMBRE Y APELLIDO FORMULARIO*/
 
 label{
@@ -168,10 +161,11 @@ textarea{
     }
 
     .articleContacto-container{
-        padding: 0.75rem;
-        width: 111%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         text-align: left;
-        display: block;
+        padding: inherit;
     }
 
     .contacto-container-left{
@@ -191,35 +185,71 @@ textarea{
 
     }
 
-    input, textarea{
-        width: 11.25rem;
-    }
-    /*.nombre-apellido{
-        width: fit-content;
+    #boton-enviar{
         display: flex;
-        flex-direction: column;
-        
-    }*/
+        align-items: center;
+        text-align: center;
+        width: 7rem;
+        height: 2.5rem;
+        margin-top: 0.3em;
+    }
+    }
+    input, textarea{
+        width: 12.25rem;
+    }
+
 
     form{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    /*    min-width: 200px;   */
+
     }
 
     .titulo-contacto{
+        margin-top: auto;
         font-size: 2em;
+        width: auto;
+        text-align: center;
+    }
+
+    .contacto-texto{
+        width: fit-content;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .contacto-redes-sociales{
+        display: contents;
+        padding-inline-start: inherit;
+        width: max-content;
+        margin-left: 0%;
+        margin-bottom: 10%;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .iconsUtterance{
+        font-size: 80%;
+    }
+
+    #email-iconContact, #twitter-iconContact, 
+    #github-iconContact, #linkedin-iconContact{
+        font-size: 1em;
+    }
+
+    .elementoIcon-contact{
+        margin-top: 1em;
+        font-size: 1em;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .email-contacto{
         width: fit-content;
     }
-
-  
-
-
-
-
 
 }

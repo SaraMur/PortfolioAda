@@ -79,4 +79,8 @@ nav, li.menu-footer, a.linkMenu-footer:hover{
     .menu-footer{
         display: none;
     }
+
+    .icons-footer-container{
+        padding-left: 1.3rem;
+    }
 }

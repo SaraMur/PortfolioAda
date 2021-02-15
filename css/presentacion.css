@@ -74,7 +74,7 @@
     text-decoration: none;
     box-shadow: none;
     border: none;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     align-self: center;
   }
@@ -88,7 +88,7 @@
   #mi-nombre {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2em;
     color: cadetblue;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -98,7 +98,7 @@
     font-family: "Roboto Condensed", sans-serif;
     color: rgb(53, 53, 53);
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 0px;
     margin-top: 0px;
     line-height: 1.4;
@@ -106,9 +106,12 @@
   }
   .parrafo-intro {
     color: #616161;
-    font-size: 1.1em;
     margin-bottom: 40px;
     text-align: center;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-top: 3%;
+}
   }
   img.imagen-portada {
     padding-top: 2em;
