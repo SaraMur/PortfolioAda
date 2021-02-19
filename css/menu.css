@@ -28,9 +28,8 @@
     display: flex;
     align-items: flex-end
     
-    }
+  }
   
- 
 
   nav ul{
     list-style: none;
@@ -108,9 +107,12 @@
   }
   .secciones-menu{
     display: none;
+    margin-left: 250px;
+    margin-top: 50px;
+}
   }
   #menu:checked  ~ .secciones-menu{
-    display:block;
+    display: block;
   }
   #menu {
     display: none;

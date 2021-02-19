@@ -7,6 +7,7 @@
     width: 100%;
     background-color: #5F9EA0;
 }
+
 .articleContacto-container{
     display: flex;
     justify-content: center;
@@ -16,13 +17,16 @@
     border: none;
     padding: 3.75rem;
 }
+
 /*  CONTAINER LEFT */
+
 .contacto-container-left{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
+
 .titulo-contacto{
     color: #1E1E24;
     font-family: 'Roboto Condensed', sans-serif;
@@ -32,6 +36,7 @@
     line-height: 1.8;
     text-align: left;
 }
+
 .contacto-texto{
     font-size: 1em;
     text-align: left;
@@ -51,9 +56,13 @@ ul.contacto-redes-sociales, li.elementoIcon-contact{
 }
 
 #twitter-iconContact, #github-iconContact,
-#linkedin-iconContact, #email-iconContact{
+#linkedin-iconContact{
     font-size: 1.5em;
     color: teal;
+}
+
+#email-iconContact{
+    height: 1.7rem;
 }
 
 .iconsUtterance{
@@ -62,12 +71,14 @@ ul.contacto-redes-sociales, li.elementoIcon-contact{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1em;
 }
+
 .iconsUtterance:hover{
     padding-left: 1.1em;
     color: teal;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
 }
+
 /* --- FIN CONTAINER LEFT --- */
 
 /* CONTAINER RIGHT */
@@ -76,19 +87,19 @@ ul.contacto-redes-sociales, li.elementoIcon-contact{
     display: flex;
     flex-direction: column;
 }
+
 form{
     display: flex;
     flex-direction: column;
 }
-}
+
 /*NOMBRE Y APELLIDO FORMULARIO*/
 .nombre-apellido{
     border-radius: 20px;
     background-color: #D6D6E3;
     border: 1px solid #D6D6E3;
     font-size: var(--text-sm);
-    display: flex;
-    flex-direction: row;
+    display: content;
     outline: none;
 } 
 .nombre-contacto, .apellido-contacto{
@@ -104,6 +115,7 @@ label{
     font-weight: 600;
     margin-top: 20px;
 }
+
 input{
     border-radius: 20px;
     background-color: #D6D6E3;
@@ -126,6 +138,7 @@ textarea{
     width: 25rem;
     outline: none;
 }
+
 #boton-enviar{
     color: white;
     padding: 1em 1em;
@@ -139,6 +152,7 @@ textarea{
     height: 50px;
     background-color: #F9A826;
 }
+
 #boton-enviar:hover{
     background: #c7f8f9;
     color: #6ab1c9;
@@ -193,7 +207,7 @@ textarea{
         height: 2.5rem;
         margin-top: 0.3em;
     }
-    }
+    
     input, textarea{
         width: 12.25rem;
     }
@@ -233,9 +247,13 @@ textarea{
         font-size: 80%;
     }
 
-    #email-iconContact, #twitter-iconContact, 
+    #twitter-iconContact, 
     #github-iconContact, #linkedin-iconContact{
         font-size: 1em;
+    }
+
+    #email-iconContact{
+        height: 1.1rem;
     }
 
     .elementoIcon-contact{

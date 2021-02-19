@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sara Muriega">
+    <meta name="description" content="Primer portafolio realizado como proyecto final del primer módulo de ADA">
+    <meta name="keywords" content="Portafolio, front end, programación, ADA">
 
     <!--Links hojas de estilo-->
     <link rel="stylesheet" href="./css/style.css" />
@@ -14,13 +17,8 @@
     <link rel="stylesheet" href="./css/contacto.css" />
     <link rel="stylesheet" href="./css/footer.css" />
 
-    <!--Link ícono-->
-    <script
-      src="https://kit.fontawesome.com/e363a095bd.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <!--Links íconos footer-->
+    <!--Link íconos-->
+ 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css">
 
 
@@ -29,14 +27,14 @@
 
   <body>
     <!--Menú-->
-    <header class="caja-padre-menu">
+    <header class="caja-padre-menu" id="menuContainer">
       <div class="caja-menu">
         <nav aria-label="Menu" class="menu-navegacion" id="menu_on">
           <input type="checkbox" id="menu" />
           <label for="menu" id="label-icon"> ☰ </label>
 
           <!--Listado-->
-          <ul class="secciones-menu">
+          <ul class="secciones-menu" id="menuResponsive">
             <li class="listado-secciones">
               <a aria-label="Hola" href="#hola" class="vinculo-secciones"
                 >HOLA</a
@@ -190,7 +188,7 @@
       <!--Cita-->
       <section role="region" class="seccion" id="cita">
         <article aria-label="cita">
-          <i id="icono-comilla" class="fas fa-quote-left"></i>
+          <img src="./icon-quote.png" id="icono-comilla"></img>
           <h2 class="cita-texto">
             La capacidad de simplificar significa eliminar lo innecesario de
             modo que lo necesario pueda hablar.
@@ -306,7 +304,7 @@
 
               <li class="elementoIcon-contact" id="Email">
                 <a href="mailto:smuriega@gmail.com" target="_blank">
-                  <i class="fas fa-envelope footer-social-icon" id="email-iconContact"></i>
+                  <img src="./icon-email.png" id="email-iconContact"></img>
                   <span class="iconsUtterance">smuriega@gmail.com</span>
                 </a>
               </li>
@@ -317,28 +315,27 @@
           <article class="contacto-container-right">
             <form action="#" method="POST">
               <h1 class="titulo-contacto">Escribime</h1>
-              <div class="nombre-apellido">
-                <div class="nombre-contacto">
-                  <label for="idNombre">Nombre*</label>
-                  <input class="nombre"
-                    type="text"
-                    id="idNombre"
-                    name="nombre"
-                    autocomplete="off"
-                    placeholder="Ingresa tu nombre"
-                  />
-                </div>
-                <div class="apellido-contacto">
-                  <label for="idApellido">Apellido*</label>
-                  <input class="apellido"
-                    type="text"
-                    id="idApellido"
-                    name="apellido"
-                    autocomplete="off"
-                    placeholder="Ingresa tu apellido"
-                  />
-                </div>
+              
+              <div class="nombre-contacto">
+                <label for="idNombre">Nombre*</label>
+                <input class="nombre"
+                  type="text"
+                  id="idNombre"
+                  name="nombre"
+                  autocomplete="off"
+                  placeholder="Ingresa tu nombre"
+                />
               </div>
+              <div class="apellido-contacto">
+                <label for="idApellido">Apellido*</label>
+                <input class="apellido"
+                  type="text"
+                  id="idApellido"
+                  name="apellido"
+                  autocomplete="off"
+                  placeholder="Ingresa tu apellido">
+              </div>
+              
               <div class="email-contacto">
                 <label for="idemail">Email*</label>
                 <input
@@ -415,7 +412,7 @@
       </div>
       <div class="icon-footer">
         <a href="mailto:saramurcomercial@gmail.com" target="_blank">
-          <i class="fas fa-envelope footer-social-icon" id="email-icon-footer" ></i>
+          <img src="./icon-email-footer.png" id="email-icon-footer" ></img>
         </a>
       </div>
     </article>

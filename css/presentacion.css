@@ -46,13 +46,7 @@
   font-size: 1.1em;
   margin-bottom: 40px;
 }
-/*.imagen-portada{
-  width: 80vw;
-  background-image: url(../imagenportada-png.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}*/
+
 
 /*Medias Queries*/
 
@@ -111,8 +105,8 @@
     font-size: 1em;
     line-height: 1.3em;
     padding-top: 3%;
-}
   }
+  
   img.imagen-portada {
     padding-top: 2em;
     width: 100vw;
