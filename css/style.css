@@ -1,54 +1,100 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* FUENTES*/
+/* 'Cabin', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-/* WEBKIT*/
+/* 'Roboto Condensed', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+/*FIN FUENTES*/
+
+/* WEBKIT scroll*/
 html::-webkit-scrollbar-thumb {
-  background: #33373B;
+  background: #33373b;
   border-radius: 4px;
 }
 html::-webkit-scrollbar {
-  width: 8px;     /* Tamaño del scroll en vertical */
-  height: 8px;    /* Tamaño del scroll en horizontal */
+  width: 8px; /* Tamaño del scroll en vertical */
+  height: 8px; /* Tamaño del scroll en horizontal */
 }
-/* Fin WEBKIT*/
+/* Fin WEBKIT scroll*/
 
-html, body{
+html,
+body {
   margin: 0;
   width: 100%;
   height: 100vh;
 }
-
-body{
+body {
   font-size: 1em;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #2e2e31;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
   width: 100%;
 }
-
-
-.seccion{
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
+.seccion {
+  width: 100%;
   padding: 6.875rem 2.5rem 3.75rem;
+  display: flex;
+  flex-direction: column;
+}
+.titulo-seccion {
+  color: #1e1e24;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3.3em;
+  margin-bottom: 0px;
+  margin-top: 1%;
+  line-height: 1.4;
   text-align: center;
-  min-height: 62.5rem;
 }
 
+.parrafo-seccion {
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  color: #1e1e24;
+  font-size: 1.3em;
+  font-weight: 200;
+}
 
-/* Medias Querys*/
-@media screen and (max-width: 768px){
+.contenedor-texto-seccion {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
 
+/* Media Queries*/
+@media screen and (max-width: 576px) {
+  h1.titulo-seccion {
+    color: #1e1e24;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .seccion {
+    width: 100%;
+    padding: 3rem 2.5rem 3.75rem;
+    display: flex;
+    flex-direction: column;
+  }
 
-
+  .parrafo-seccion{
+    font-size: 1.1em;
+  }
 
   
 }
-
-
-
-

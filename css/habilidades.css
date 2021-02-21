@@ -1,25 +1,90 @@
-#titulo-habilidades{
-    color: rgb(53, 53, 53);
-    font-weight: 800;
-    font-size: 2.5em;
-    margin-bottom: 0px;
-    margin-top: 1%;
-    line-height: 1.4;
-    
+#habilidades {
+  background-color: cadetblue;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
 }
-#habilidades{
-    background-color: cadetblue;
-    margin-top: 5%;
+
+.skills-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.parrafo-habilidades{
-    width: 100%;
-    text-align: center;
-    align-self: center;
-    color: #cce1e6;
-    font-size: 1.1em;
+.skills-box {
+  width: 16.25rem;
+  height: 16.25rem;
+  background-color: #1e1e24;
+  border: 1px solid #33373b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 30px;
 }
-.habilidades{
-    text-align: center;
+
+.skills-box:hover {
+  background: #c7f8f9;
+  color: #6ab1c9;
+  border: 3px solid #6ab1c9;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+#html-logo {
+  width: 150px;
+  height: 150px;
+}
+#css-logo {
+  width: 150px;
+  height: 150px;
+}
+#sass-logo {
+  width: 150px;
+  height: 150px;
+}
+#javascript-logo {
+  width: 135px;
+  height: 135px;
+}
+#react-logo {
+  width: 150px;
+  height: 150px;
+}
+#git-logo {
+  width: 160px;
+  height: 160px;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 576px) {
+  .skills-container {
+    width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #habilidades {
+    background-color: cadetblue;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-right: -20px;
+  }
+  .skills-box {
+    width: 8rem;
+    height: 8rem;
+    background-color: #1e1e24;
+    border: 1px solid #33373b;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
 }
