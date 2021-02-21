@@ -109,7 +109,7 @@
     display: none;
     margin-left: 250px;
     margin-top: 50px;
-}
+
   }
   #menu:checked  ~ .secciones-menu{
     display: block;
@@ -121,10 +121,7 @@
     box-sizing: border-box;
     display: inline-block;
     border-radius: 5px;
-    /*width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 2rem;*/
+   
     font-weight: bold;
     text-align: center;
     user-select: none;
